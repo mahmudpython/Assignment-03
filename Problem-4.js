@@ -1,6 +1,6 @@
 function gonoVote(array) {
      
-    if (Array.isArray(array)){
+    if (Array.isArray(array)||array.length<=0){
 
        let ha = 0;
        let na = 0;
