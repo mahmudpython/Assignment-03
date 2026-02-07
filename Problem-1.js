@@ -17,6 +17,6 @@ function newPrice(currentPrice , discount ) {
         return "Invalid";
     }
 }
- const dis = newPrice(1000,0);
+ const dis = newPrice("1");
  console.log("New Price: "+dis);
 

@@ -1,7 +1,7 @@
 function validOtp(otp) {
 
     if (typeof otp === "string"){
-        if(otp.startsWith("ph-") && otp.length === 8){
+        if(otp.startsWith("ph-") && otp.length == 8){
             return true;
         } else{
             return false;
@@ -13,6 +13,6 @@ function validOtp(otp) {
     
 }
 
-const output = validOtp("ph-4567");
+const output = validOtp("ph-4546");
 console.log("Your OTP: "+output);
 
