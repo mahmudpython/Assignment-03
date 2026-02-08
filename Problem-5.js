@@ -28,6 +28,6 @@ function  analyzeText(str) {
         
 }
 
-const result = analyzeText("a mfdsfg asad tfdsfg dgfdg  ufdsfg fd");
+const result = analyzeText("Hello I am Mahmudul I am a Student of Madrasha ");
 console.log(result);
 
