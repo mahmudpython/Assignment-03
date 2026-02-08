@@ -8,6 +8,7 @@ let user = {
   }
 };
 
+console.log(user.address.city)
 
 
 let person = {
@@ -16,4 +17,4 @@ let person = {
   city: "Dhaka"
 };
 
-console.log(person.city);
+//console.log(person.city);
