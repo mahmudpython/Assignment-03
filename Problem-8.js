@@ -77,4 +77,9 @@ let myInfo = {
     isActive: true
 };
 
+
+function my (arays){
+    console.log(arrays);
+}
+
 console.log(myInfo);
