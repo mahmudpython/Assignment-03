@@ -78,8 +78,9 @@ let myInfo = {
 };
 
 
-function my (arays){
-    console.log(arrays);
+function my({personalInfo, skills}){
+    console.log(personalInfo.name);
+    console.log(skills);
 }
 
-console.log(myInfo);
+my(myInfo);
